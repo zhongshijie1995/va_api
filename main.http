@@ -1,0 +1,8 @@
+### /
+GET http://localhost:8000
+
+### /pred
+POST http://localhost:8000/pred
+Content-Type: application/json
+
+{"name": "YOLO_coco128-seg", "source": "data_template/test1.jpg"}

@@ -1,0 +1,15 @@
+{
+  "train_task": [
+    {
+      "status": 0,
+      "status_datetime": [],
+      "name": "YOLO_coco128-seg",
+      "weights": "data/YOLO_coco128-seg/weights.pt",
+      "train_args": {
+        "data": "data/YOLO_coco128-seg/datasets.yaml",
+        "epochs": 1,
+        "device": "mps"
+      }
+    }
+  ]
+}

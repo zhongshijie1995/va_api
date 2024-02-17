@@ -1,0 +1,13 @@
+# 代码编辑工具
+.idea
+*.iml
+
+# 执行残留
+__pycache__
+
+# 数据集
+data
+data_ext
+!data_template
+!data_template/data
+!/data_template/data_ext
